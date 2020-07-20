@@ -1,0 +1,382 @@
+/* __________ 1/ PROPRIETES INHERENTES AU SITE __________ */
+/* __________ 1/1. Police de caractère __________ */
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&family=Dancing+Script&family=Devonshire&family=Kalam&family=Kaushan+Script&family=Montserrat&family=Righteous&display=swap');
+/* __________ 1/2. Propriétés de <header> __________ */
+header {
+  height: 160px;
+  background: #579C87;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a {  
+  text-decoration: none;
+  color: #fcca46;
+}
+header h1 {  
+  font-family: 'Righteous', cursive;
+  color: #fcca46;
+  font-size: 5rem;
+  text-decoration: none;
+}
+header h1 a {  
+  text-decoration: none; 
+}
+/* __________ 1/3. Propriétés de <footer> __________ */
+footer {
+  height: 90px;
+  background: #579C87;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;  
+  width: 100%;  
+  position: fixed;
+  bottom: 0; 
+}
+footer a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  color: #fcca46;
+  font-size: 1.8rem;  
+  margin: 2rem;
+}
+/* __________ 2/ PROPRIETES INHERENTES A LA PAGE D'ACCUEIL __________ */
+/* __________ 2/X. Propriétés de <main> __________ */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 2rem; 
+}
+nav a {
+  text-decoration: none;  
+}
+.link {
+  height: 500px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 6px grey;
+  margin: 2rem;
+}
+.link h2 {
+  font-size: 2rem;
+  padding: .5rem;
+  margin-bottom: 2rem;
+}
+.link p {
+  font-size: 2rem;
+  padding: .5rem;
+}
+.link img {
+  height: 40px;
+  width: 40px;
+  margin-bottom: 2rem;
+}
+.link .gradient2 {
+  font-size: 1.4rem;
+}
+button {
+  width: 350px;
+  background: #579C87;
+  display: flex;    
+  justify-content: center;  
+  border-radius: 15px;
+  border: none;
+  margin: auto;
+  margin-bottom: 150px;
+}
+button p {
+  font-family: 'Montserrat', sans-serif;
+  color: #fcca46;
+  font-size: 2rem;
+  margin: 1rem; 
+}
+/* __________ 3/ PROPRIETES INHERENTES AUX PAGES DES MENUS __________ */
+.mainmenu {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 8rem; 
+}
+.menu {
+  margin-top: 1rem;
+  box-shadow: 1px 1px 6px grey; 
+}
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+.menu .entete {
+  display: flex;
+  flex-direction: column;
+}
+.menu h2 {
+  text-align: center;
+  font-size: 3rem;  
+}
+.menu .icon {
+  display: flex;
+  justify-content: center; 
+}
+section {
+  margin: 2rem;
+}
+.menu h3, .menu ul {
+  text-align: center;
+  font-family: 'Kalam', cursive;
+  font-size: 1.3rem;
+  padding: 0;
+  margin: 1rem; 
+}
+.menu h3 {
+  position: relative;
+  text-align: justify;
+  font-size: 1.6rem;
+  margin-bottom: 2rem;
+}
+.menu li {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+.title {
+  display: flex;
+  justify-content: center; 
+}
+.endmenu {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem; 
+}
+.endmenu .end-icon {
+  display: flex;
+  align-items: center;
+  margin: 0.8rem; 
+}
+.divider {
+  display: flex;
+  justify-content: space-around;
+}
+.bar {
+  width: 30%;
+}
+.after {
+  transform: scaleX(-1);
+}
+/* __________ 4/ PROPRIETES INHERENTES AUX STYLES D'ECRITURE __________ */
+/* __________ 4/1. Propriétés de <.style1> __________ */
+.style1 {
+  background: #fcdfdb;  
+  font-family: 'Kalam', cursive;
+  color: #582f34;
+  font-size: 1.7rem;
+}
+.style1 h2 {
+  font-family: 'Devonshire', cursive; 
+}
+.note {
+  background: -webkit-gradient(linear, left top, right bottom, from(red), to(orange));
+  -webkit-background-clip: text;
+  color: transparent; 
+}
+.style1 h3 {
+  font-size: 2rem;  
+}
+.note {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  margin: 0.8rem;  
+}
+.down {
+  display: flex;
+  justify-content: center;
+}
+.down img {
+  height: 40px;
+  width: 40px;
+}
+/* __________ 1/X.b  Propriétés de <.style2> __________ */
+.style2 {
+  background: #fff5fe;
+  font-family: 'Crimson Text', serif;
+  font-size: 1.7rem; 
+}
+.style2 h2 {
+  font-family: 'Croissant One', cursive;
+}
+.style2 p {
+  color: #c77412; 
+}
+.style2 .starter {
+  color: #c67412; 
+}
+.style2 .dish {
+  color: #a56799; 
+}
+.style2 .dessert {
+  color: #6e4ccc; 
+}
+.gradient2 {
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right bottom, from(#c77412), to(#905bfd));
+  -webkit-background-clip: text;
+  color: transparent; 
+}
+/* __________ 1/X.c  Propriétés de <.style3> __________ */
+.style3 {
+  background: #f9f9f9;
+  font-family: 'Bad Script', cursive;
+  font-size: 1.7rem; 
+}
+.style3 h2 {
+  font-family: 'Dancing Script', cursive;
+}
+.style3 p {
+  color: #2b91f8; 
+}
+.blue1 {
+  color: #0228dd; 
+}
+.blue2 {
+  color: #0670f3; 
+}
+.blue3 {
+  color: #229df9; 
+}
+.gradient3 {
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right bottom, from(#0228dd), to(#8dc5f5));
+  -webkit-background-clip: text;
+  color: transparent; 
+}
+/* __________ 1/X.d  Propriétés de <.style4> __________ */
+.style4 {
+  background: #fdfffd;
+  font-family: 'Bad Script', cursive;  
+  font-size: 1.7rem; 
+}
+.style4 h2 {
+  font-family: 'Kaushan Script', cursive;
+}
+.style4 p {
+  color: #5eae4b; 
+}
+.gradient4 {
+  text-align: center;
+  background: -webkit-gradient(linear, left top, right bottom, from(#5eae4b), to(#c8fe94));
+  -webkit-background-clip: text;
+  color: transparent; 
+}
+/* __________ 4/ PROPRIETES INHERENTES AU RESPONSIVE DESIGN __________ */
+@media screen and (max-width: 767px) {
+  .mainmenu {
+    flex-direction: column;
+    margin: 1rem; 
+  }
+  .divider {
+    flex-direction: column;
+    align-items: center; 
+  }
+  li {
+    flex-direction: column;
+    margin: 1rem; 
+  }
+  .button {
+    margin-bottom: 180px; 
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  } 
+}
+@media only screen and (min-width: 1294px) {
+  .links {
+    margin: auto;
+    width: 1000px; 
+  } 
+}
+@media only screen and (min-width: 1919px) {
+  body {
+    width: 80%;
+    margin: auto; 
+  }  
+  .menu {
+    font-size: 2.5rem; 
+  }
+  .menu h4 {
+    font-size: 2.5rem; 
+  }
+  li {
+    font-size: 2.5rem; 
+  }
+  footer {
+    width: 80%; 
+  } 
+}
+/* __________ 5/ PROPRIETES INHERENTES AUX ANIMATIONS __________ */
+/* __________ 5/1. Animation 1 __________ */
+a:hover > article > h2, a:hover > article > p, a:hover > article > img {
+  overflow: hidden;
+  transition: 0.3s;
+  opacity: 0.5;
+  transform: scale(1.3); 
+}
+@-webkit-keyframes loading {
+  0% {
+    opacity: 1; 
+  }
+  100% {
+    opacity: 0; 
+  } 
+}
+/* __________ 5/2. Animation 2 __________ */
+.dot1 {
+  -webkit-animation: loading 2s ease-in-out infinite; 
+}
+.dot2 {
+  -webkit-animation: loading 2s ease-in-out infinite;
+  animation-delay: 0.4s; 
+}
+.dot3 {
+  -webkit-animation: loading 2s ease-in-out infinite;
+  animation-delay: 0.8s; 
+}
+/* __________ 5/3. Animation 3 __________ */
+footer a:hover {
+  -webkit-animation: wiggle 0.1s alternate infinite ease-in-out; 
+}
+@keyframes wiggle {
+  0% {
+    -webkit-transform: rotate(5deg); 
+  }
+  50% {
+    -webkit-transform-origin: center; 
+  }
+  100% {
+    -webkit-transform: rotate(-5deg); 
+  } 
+}
+/* __________ 5/4. Animation 4 __________ */
+.menu h3 {
+  position: relative;
+}
+.menu h3::after {
+  margin: auto;
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-bottom: 2px solid #333;  
+  width: 0%;
+  background: currentColor;
+  transition: 1s; 
+}
+.menu h3:hover::after {
+  width: 100%; 
+}
